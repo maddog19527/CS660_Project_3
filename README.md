@@ -19,6 +19,9 @@
 *Adding later*
 
 ## Libraries Used
+- GeoPandas
+- SKLearn
+- SKOpt
 *Adding later*
 
 ## Project Structure

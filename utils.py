@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def detect_outliers_iqr(data, column):
     """Detects outliers in the given column using the IQR method."""
 
@@ -18,3 +19,15 @@ def discretize(dataFrame: pd.DataFrame, fields: dict):
         result[field] = pd.cut(dataFrame[field], bins=len(labels), labels=labels)
     
     return result
+
+
+from skopt.plots import plot_objective, plot_histogram, plot_convergence, plot_gaussian_process
+import matplotlib.pyplot as plt
+def optimizationResults(opt):
+    ax = plot_objective(
+                result=opt.optimizer_results_[0],
+                n_minimum_search=int(1e8)
+                )
+    plt.subplots_adjust(wspace=0.5, hspace=0.5)
+    plt.show()
+    return ax
