@@ -163,3 +163,6 @@ cython_debug/
 
 # OS Stuff
 **/.DS_Store
+
+# Files To Ignore
+**/us_county/*
