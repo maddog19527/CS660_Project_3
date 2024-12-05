@@ -162,4 +162,4 @@ cython_debug/
 #.idea/
 
 # OS Stuff
-.DS_Store
+**/.DS_Store
