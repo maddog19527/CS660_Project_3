@@ -162,4 +162,7 @@ cython_debug/
 #.idea/
 
 # OS Stuff
-.DS_Store
+**/.DS_Store
+
+# Files To Ignore
+**/us_county/*
