@@ -13,16 +13,19 @@
 - **Due Date:** 09-Dec-2024
 
 ## Dataset Description
-*Adding later*
+Digits-
+The sklearn digits dataset is a collection of 8x8 grayscale images of handwritten digits (0 through 9), often used for classification and image recognition tasks.
+California_Housing-
+The sklearn California housing dataset is a regression dataset derived from the 1990 U.S. Census, containing information about housing in California. It includes 20,640 samples with 8 features, such as median income, average number of rooms, and latitude/longitude, used to predict the median house value in a given block. 
 
 ## Questions Answered
-*Adding later*
+How can we most effectively and efficiently tune the default Classification and Regression tools available to us in the SKLearn library?
+How can we use visualizations and GeoPandas to add depth to our feature engineering?
 
 ## Libraries Used
 - GeoPandas
 - SKLearn
 - SKOpt
-*Adding later*
+-Pandas
+-NumPY
 
-## Project Structure
-*Adding Later*
